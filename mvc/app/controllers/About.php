@@ -1,9 +1,9 @@
 <?php
 
-class _404
+class About
 {
     public function index()
     {
-        echo 'Controller not found';
+
     }
 }
