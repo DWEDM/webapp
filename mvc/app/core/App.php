@@ -9,7 +9,8 @@ class App
 
 	public function __construct()
 	{
-		$url = $this->splitURL();
+		$url = $this->splitUrl();
+		show ($url);
 		if(isset($url[0]))
 		{
 			if(file_exists('../app/controllers/' . ucfirst($url[0]) . '.php'))
@@ -38,7 +39,7 @@ class App
 	private function splitURL()
 	{
 		if (isset($_GET['url'])){
-			$url = explode("/", trim($_GET[$url], "/"));
+			$url = explode("/", trim($_GET['url'], "/"));
 			return $url;
 		}
 	}

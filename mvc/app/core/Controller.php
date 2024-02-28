@@ -2,9 +2,9 @@
 
 class Controller
 {
-    public funtion view($name)
+    public function view($name)
     {
-        if(file_exist('../app/views/' . $name . '.php'))
+        if(file_exists('../app/views/' . $name . '.php'))
         {
             require '../app/views/'. $name .'.php';
         }
