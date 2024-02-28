@@ -25,7 +25,8 @@ class App
 		$this->controller = new $this->controller;
 
 		if(isset($url[1])){
-			if(isset(method_exists($url[1])){
+			if(method_exists($this->controller, $url[1]))
+			{
 				$this->method = $url[1];
 				unset($url[1]);
 			}
