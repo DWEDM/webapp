@@ -10,7 +10,7 @@ class Controller
         }
         else
         {
-            require '../app/views/404.php';
+            require '../app/views/_404.php';
         }
     }
 }
