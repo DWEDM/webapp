@@ -64,9 +64,9 @@
 
 
 <div class="content">
-  <style>main-content{display: flex; width: auto; height: 50vh; background-color: turquoise;}</style>
+  <style>main-content{display: flex; width: 100%; height: 50vh; background-color: turquoise;}</style>
   <div class="main-content">
-    Maincontent
+    Maincontentadg,adsjkbf,sdfa,sdf
   </div>
 
   <div>Feed</div>
