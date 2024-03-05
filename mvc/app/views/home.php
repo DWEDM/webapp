@@ -63,9 +63,8 @@
     <!-- navbar -->
 
 
-<div class="content">
-  <style>main-content{display: flex; width: 100%; height: 50vh; background: gray;}</style>
-  <div class="main-content">
+<div>
+  <div>
     Maincontentadg,adsjkbf,sdfa,sdf
   </div>
 
