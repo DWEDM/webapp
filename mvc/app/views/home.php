@@ -63,6 +63,13 @@
     <!-- navbar -->
 
 
+<div>
+  <div>Maincontent</div>
+  <div>Feed</div>
+  <div>ads</div>
+</div>
+
+
 </body>
 
 
