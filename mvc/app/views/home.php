@@ -63,8 +63,12 @@
     <!-- navbar -->
 
 
-<div>
-  <div>Maincontent</div>
+<div class="content">
+  <style>main-content{display: flex; width: auto; height: 50vh; background-color: turquoise;}</style>
+  <div class="main-content">
+    Maincontent
+  </div>
+
   <div>Feed</div>
   <div>ads</div>
 </div>
