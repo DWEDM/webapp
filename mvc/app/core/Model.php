@@ -3,7 +3,7 @@
 class Model extends Database{
     public function findAll()
     {
-        $query = "select * from users";
+        $query = "Select * from users";
 
         $result = $this->query($query);
         if($result){
