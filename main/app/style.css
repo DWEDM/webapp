@@ -3,7 +3,7 @@
     padding: 0;
 }
 .local-main-container{
-    height: 100vh;
+    height: auto;
     width: 100%;
     background-image: url(resources/banner.png);
     background-position: center;
