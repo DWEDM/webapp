@@ -24,7 +24,7 @@
     <div class="title">
       Homepage
     </div>
-    <img class="banner-animated"  src="../resources/banner-animated.gif">
+    <img class="logo-animated"  src="../resources/logo-animated.gif">
   </div>
 
 
