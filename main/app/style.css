@@ -6,13 +6,15 @@
     padding: 0;
 }
 .title{
-    justify-content: center;
     width: auto;
     height: auto;
+
+    justify-content: center;
     padding-top: 20%;
     padding-left: 8%;
     padding-right: 10%;
     padding-bottom: 20%; /*HAHSHAHSHAH padding ezzz so easyy coding skskskksks*/
+    
     font-family: "Rethink Sans", sans-serif;
     font-weight: normal;
     font-style: normal; 
