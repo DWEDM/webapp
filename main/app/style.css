@@ -6,16 +6,17 @@
     padding: 0;
 }
 .title{
+    justify-content: center;
     width: auto;
     height: auto;
-    padding-top: 20vh;
-    padding-left: 10vh;
-    padding-right: 10vh;
-    padding-bottom: 20vh; /*HAHSHAHSHAH padding ezzz so easyy coding skskskksks*/
+    padding-top: 20%;
+    padding-left: 8%;
+    padding-right: 10%;
+    padding-bottom: 20%; /*HAHSHAHSHAH padding ezzz so easyy coding skskskksks*/
     font-family: "Rethink Sans", sans-serif;
     font-weight: normal;
     font-style: normal; 
-    font-size: calc(12px + 9.5vw);
+    font-size: calc(9px + 9.5vw);
 }
 .content{
     margin: 0;
