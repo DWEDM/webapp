@@ -20,12 +20,17 @@
 <body>
   <?php include('include/header.php')?>
 
-
-    <div class="content">
-
     <div class="title">
       Homepage
     </div>
+    <div class="content">
+
+      <div class="main-content">
+        main
+      </div>
+      <div class="announcements">
+        announcements
+      </div>
 
 
 
