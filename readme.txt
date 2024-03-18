@@ -26,3 +26,8 @@ RAAAGHHHHH
 
 aight yun lang, diko alam kung sino nag babasa neto skskskskksks
 
+
+SO,
+
+"http://localhost/webapp/main/app/site.php" eto yung localhost link ng site para dina mag navigate asjlfdhsfsl copypaste nalang ig....
+
