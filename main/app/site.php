@@ -26,7 +26,18 @@
     <div class="content">
 
       <div class="main-content">
-        main
+        <div class="AOTD">
+          <div class="image-AOTD">
+            <img src="../resources/artworks/Dinner in the sun(1938) - fernando amorsolo.jpg" alt="people eating filipino local foods outside the hut">
+          </div>
+          <p></p>
+        </div>
+        <div class="featured">
+          <div class="image-featured">
+            <img src="../resources/artworks/philippine bululs.jpg" alt="sitting carved human called bululs">
+          </div>
+          <p></p>
+        </div>
       </div>
       <div class="announcements">
         announcements
