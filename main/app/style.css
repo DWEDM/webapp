@@ -5,7 +5,5 @@
 .local-main-container{
     height: auto;
     width: 100%;
-    background-image: url(resources/banner.png);
-    background-position: center;
-    background-size: cover;
+    background: url(../resources/banner.png);
 }
