@@ -35,9 +35,8 @@ img {
         width: auto;
         height: auto;
 
-        justify-content: center;
+        justify-self: left;
         padding-top: 20vh;
-        padding-left: 8%;
         padding-bottom: 20vh; /*HAHSHAHSHAH padding ezzz so easyy coding skskskksks*/
         margin-right: 20vh;
 
