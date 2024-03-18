@@ -21,9 +21,14 @@
   <?php include('include/header.php')?>
 
 
-    <div>
-    <div class="local-main-container">
+    <div class="content">
+
+    <div class="title">
+      Homepage
     </div>
+
+
+
     </div>
 
 
