@@ -24,10 +24,10 @@
     
     </head>
 <body>
-    
+  <?php include('include/header.php')?>
     <div class="main-container">
         
     </div>
-
+    <?php include('include/footer.php')?>
 </body>
 </html>
