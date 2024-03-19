@@ -31,7 +31,7 @@ img {
 }
 h2{
     font-family: "Rethink Sans", sans-serif;
-    font-size: 10vh;
+    font-size: 3.5em;
 }
 
 
@@ -70,7 +70,9 @@ h2{
     .logo-animated{
         justify-self: center;
         align-self: center;
-        height: 50vh;
+        max-height: 50vh;
+        min-height: 20vh;
+        padding: 2vh;
     }
 
 
@@ -210,5 +212,15 @@ h2{
     width: 100%;
     height: auto;
 
-    
+    padding: 5%;
 }
+    .news-container{
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        padding: 1vh;
+    }

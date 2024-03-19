@@ -18,8 +18,16 @@
     
     </head>
 <body>
+
+
+
   <?php include('include/header.php')?>
 
+
+
+
+
+  
   <div class="title-section">
     <div class="main-title-section">
       <div class="title">
@@ -91,10 +99,15 @@
         <div class="announcements">
           <h2>Announcements:</h2>
           <div class="news-container">
-            
+            <?php include('include/card.php')?>
+            <?php include('include/card.php')?>
+            <?php include('include/card.php')?>
           </div>
 
         </div>
+
+
+
       </div>
     </div>
 
