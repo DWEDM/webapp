@@ -6,11 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="card" style="width: 16rem; padding: 2vh; ">
+    <div class="card" style="width: 20rem; padding: 1vh; ">
     <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">News</h5>
+        <p class="card-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
     </div>
     </div>
