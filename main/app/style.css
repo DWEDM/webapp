@@ -61,8 +61,6 @@ img {
 .content{
     margin: 0;
     padding: 0;
-    width: 100vh;
-    height: auto;
     font-family: "Asar", serif;
     font-weight: 400;
     font-style: normal;
@@ -73,30 +71,25 @@ img {
     justify-content: center;
 
     font-size: calc(8px + 1vw);
-
-    background: #e4db62;
 }   
 
     .main-content{
         height: auto;
-        width: 100%;
+        width: 100vh;
 
         margin-top: 10vh;
         padding: 1vh;
-        display: flex;
+        background-color: #e4db62;
     }
         .AOTD{
             height: auto;
-            width: 100vh;
+            width: 100%;
         }
             .AOTD-content{
                 height: auto;
-                width: auto;
+                width: 100%;
                 display: flex;
             }
-                .AOTD-description{
-                    flex: 1;
-                }
                 .image-AOTD{
                     height: auto;
                     width: 40vh;
@@ -119,11 +112,10 @@ img {
                 object-fit: cover;
                 padding: 2vh;
             }
-    .announcements{
-        height: 400px;
-        width: 400px;
-        min-width: 200px;
 
+
+
+    .announcements{
         margin-top: 10vh;
         padding: 1vh;
     }
