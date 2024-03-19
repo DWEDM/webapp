@@ -21,10 +21,12 @@
   <?php include('include/header.php')?>
 
   <div class="title-section">
-    <div class="title">
-      Welcome!
+    <div class="main-title-section">
+      <div class="title">
+        Welcome!
+      </div>
+      <img class="logo-animated"  src="../resources/logo-animated.gif">
     </div>
-    <img class="logo-animated"  src="../resources/logo-animated.gif">
   </div>
 
 
@@ -55,20 +57,37 @@
 
 
         <div class="featured">
-          <h2>Featured Art:</h2>
-          <div class="image-featured">
-            <img src="../resources/artworks/philippine bululs.jpg" alt="sitting carved human called bululs">
-            <h3>Philippine Bululs</h3>
-          </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-            pariatur. Excepteur sint occaecat cupidatat non proident, 
-            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="baybayin-bg"></div>
+          
+            <div class="featured-section">
+              <h2>Featured Art:</h2>
+                <div class="featured-content">
+                  <div class="featured-box">
+                      <img class="image-featured" src="../resources/artworks/philippine bululs.jpg" alt="sitting carved human called bululs">
+                      <h3>Philippine Bululs</h3>
+                  </div>
 
+                  <div class="featured-description">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                      pariatur. Excepteur sint occaecat cupidatat non proident, 
+                      sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                  </div>
+                </div>
+
+            </div>
         </div>
+
+
+
+
+
+
         <div class="announcements">
         announcements
         </div>

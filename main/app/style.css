@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Asar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asar&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
 
+
+
+@media only screen and (max-width: 970px) {
+    .title {
+        display: none;
+    }
+    .baybayin-bg {
+        display: none;
+    }
+    .image-featured{
+        height: auto;
+        width: 10vh;
+    }
+}
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -26,10 +45,9 @@ img {
     display: flex;
     justify-content: center;
 }
-    @media only screen and (max-width: 970px) {
-        .title {
-            display: none;
-        }
+
+    .main-title-section{
+        display: flex;
     }
     .title{
         width: auto;
@@ -65,6 +83,9 @@ img {
     font-weight: 400;
     font-style: normal;
 
+    display: flex;
+    flex-wrap: wrap;
+
     justify-content: center;
 
     font-size: calc(8px + 1vw);
@@ -74,44 +95,98 @@ img {
         height: auto;
         width: 100%;
 
-        margin-top: 10vh;
-        padding: 1vh;
+        padding-top: 10vh;
     }
         .AOTD{
             height: auto;
-            width: 100%;
-            background-color: #e4db62;
+            width: auto;
+            justify-items: center;
+            padding: 4%;
+
+            background-color: #f2c649;
         }
             .AOTD-content{
                 height: auto;
                 width: 100%;
+                display: flex;
             }
+                .AOTD-description{
+                    height: 100%;
+                    width: auto;
+                    margin: auto;
+                    align-items: center;
+                    justify-items: left;
+                    flex: 1;
+
+                    padding: 5%;
+                }
+                .AOTD-description p {font-size: calc(8px + 0.8vw);}
+
                 .image-AOTD{
                     height: auto;
-                    width: 40vh;
+                    width: 40%;
                     object-fit: cover;
                     padding: 2vh;
                 }
-
-
+                .image-AOTD h4 {font-size: calc(8px + 2vw); margin-top: 1vh;}
+                .image-AOTD h5 {font-size: calc(8px + 1.5vw);}
 
         .featured{
             height: auto;
             width: 100%;
 
-            margin-top: 10vh;
-            padding: 0.5vh;
+            padding: 10%;
+            position: relative;
         }
-            .image-featured{
-                height: auto;
-                width: 100%;
-                object-fit: cover;
-                padding: 2vh;
+        .baybayin-bg{
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -1;
+            overflow: hidden;
+            position: absolute;
+        
+            width: 100%;
+            height: auto;
+            background-image: url(../resources/background-text.png);
+            background-position: center;
+            opacity: 0.3;
+        }
+        .featured-section{
+            padding: 5%;
+
+            border-style: solid;
+            border-color: #f2c649;
+            background-color: rgb(255, 255, 255);
+
+        }
+            .featured-content {
+                display: flex;
             }
-
-
+                .featured-box{
+                    width: 40%;
+                    height: auto;
+                    align-items: center;
+                }
+                    .image-featured{
+                        height: auto;
+                        width: 100%;
+                        padding: 2vh;
+                    }
+                .featured-description{
+                    flex: 1;
+                    padding: 5%;
+                    justify-content: left;
+                }
+            .featured-description p {font-size: calc(5px + 1vw);}
+            .featured-box h3 {font-size: calc(8px + 3vw); margin-top: 1%;}
 
     .announcements{
+        height: 400px;
+        width: 400px;
+        min-width: 200px;
+
         margin-top: 10vh;
         padding: 1vh;
     }
