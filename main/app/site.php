@@ -22,7 +22,7 @@
 
   <div class="title-section">
     <div class="title">
-      Homepage
+      Welcome!
     </div>
     <img class="logo-animated"  src="../resources/logo-animated.gif">
   </div>
@@ -33,19 +33,27 @@
       <div class="main-content">
         <div class="AOTD">
           <h2>Art of The Day:</h2>
-          <div class="image-AOTD">
-            <img src="../resources/artworks/Dinner in the sun(1938) - fernando amorsolo.jpg" alt="people eating filipino local foods outside the hut">
-            <h4>Dinner in The Sun - 1938</h4>
-            <h5>By: Fernando Amorsolo</h5>
+          <div class="AOTD-content">
+            <div class="image-AOTD">
+              <img src="../resources/artworks/Dinner in the sun(1938) - fernando amorsolo.jpg" alt="people eating filipino local foods outside the hut">
+              <h4>Dinner in The Sun - 1938</h4>
+              <h5>By: Fernando Amorsolo</h5>
+            </div>
+            <div class="AOTD-description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                  reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                  pariatur. Excepteur sint occaecat cupidatat non proident, 
+                  sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-            pariatur. Excepteur sint occaecat cupidatat non proident, 
-            sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
+
+
+
         <div class="featured">
           <h2>Featured Art:</h2>
           <div class="image-featured">
@@ -61,13 +69,10 @@
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
         </div>
-      </div>
-      <div class="announcements">
+        <div class="announcements">
         announcements
+        </div>
       </div>
-
-
-
     </div>
 
 
