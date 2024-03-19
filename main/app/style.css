@@ -65,9 +65,6 @@ img {
     font-weight: 400;
     font-style: normal;
 
-    display: flex;
-    flex-wrap: wrap;
-
     justify-content: center;
 
     font-size: calc(8px + 1vw);
@@ -79,16 +76,15 @@ img {
 
         margin-top: 10vh;
         padding: 1vh;
-        background-color: #e4db62;
     }
         .AOTD{
             height: auto;
             width: 100%;
+            background-color: #e4db62;
         }
             .AOTD-content{
                 height: auto;
                 width: 100%;
-                display: flex;
             }
                 .image-AOTD{
                     height: auto;
