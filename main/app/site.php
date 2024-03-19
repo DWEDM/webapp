@@ -38,10 +38,10 @@
           <div class="AOTD-content">
             <div class="image-AOTD">
               <img src="../resources/artworks/Dinner in the sun(1938) - fernando amorsolo.jpg" alt="people eating filipino local foods outside the hut">
-              <h4>Dinner in The Sun - 1938</h4>
-              <h5>By: Fernando Amorsolo</h5>
             </div>
             <div class="AOTD-description">
+              <h4>Dinner in The Sun - 1938</h4>
+              <h5>By: Fernando Amorsolo</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -64,10 +64,10 @@
                 <div class="featured-content">
                   <div class="featured-box">
                       <img class="image-featured" src="../resources/artworks/philippine bululs.jpg" alt="sitting carved human called bululs">
-                      <h3>Philippine Bululs</h3>
                   </div>
 
                   <div class="featured-description">
+                  <h3>Philippine Bululs</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -89,7 +89,11 @@
 
 
         <div class="announcements">
-        announcements
+          <h2>Announcements:</h2>
+          <div class="news-container">
+            
+          </div>
+
         </div>
       </div>
     </div>

@@ -29,6 +29,10 @@ img {
     max-height:100%;
     object-fit: cover;
 }
+h2{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 10vh;
+}
 
 
 .logo-container{
@@ -128,8 +132,8 @@ img {
                     object-fit: cover;
                     padding: 2vh;
                 }
-                .image-AOTD h4 {font-size: calc(8px + 2vw); margin-top: 1vh;}
-                .image-AOTD h5 {font-size: calc(8px + 1.5vw);}
+                .AOTD-description h4 {font-size: calc(8px + 2vw); margin-top: 1vh;}
+                .AOTD-description h5 {font-size: calc(8px + 1.5vw);}
 
         .featured{
             height: auto;
@@ -180,7 +184,7 @@ img {
                     justify-content: left;
                 }
             .featured-description p {font-size: calc(5px + 1vw);}
-            .featured-box h3 {font-size: calc(8px + 3vw); margin-top: 1%;}
+            .featured-description h3 {font-size: calc(8px + 3vw); margin-top: 1%;}
 
     .announcements{
         height: 400px;
@@ -200,4 +204,11 @@ img {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.announcements{
+    width: 100%;
+    height: auto;
+
+    
 }
