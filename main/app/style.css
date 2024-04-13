@@ -49,6 +49,22 @@ h2{
     display: flex;
     justify-content: center;
 }
+.wall-art{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+
+    width: 100%;
+    height: auto;
+    background-image: url(../resources/wall-art.gif);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
 
     .main-title-section{
         display: flex;

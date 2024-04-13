@@ -30,6 +30,7 @@
 
   <div class="title-section">
     <div class="main-title-section">
+      <div class="wall-art"></div>
       <div class="title">
         Welcome!
       </div>
