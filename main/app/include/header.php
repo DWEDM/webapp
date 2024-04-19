@@ -8,7 +8,7 @@
 </head>
 <body>
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
           <div class="logo-container">
             <img src="../resources/icon.png" alt="site logo" class="logo">
           </div>
