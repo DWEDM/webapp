@@ -28,6 +28,34 @@
 
 
 
+<div class="about-section">
+
+</div>
+
+
+
+<div class="gelo">
+
+</div>
+
+
+
+<div class="denver">
+
+</div>
+
+
+
+<div class="ash">
+    
+</div>
+
+
+
+
+
+
+
 <?php include('include/footer.php')?>
 
 
