@@ -15,14 +15,19 @@
         width: 10vh;
     }
 }
-.hidden {
-    opacity: 0;
-    transition: all 0.7s;
-}
+                .hidden {
+                    opacity: 0;
+                    transition: all 1s;
 
-.show {
-    opacity: 1;
-}
+                    filter: blur(5px);
+                    transform: translateX(-30%);
+                }
+                .show {
+                    opacity: 1;
+
+                    filter: blur(0);
+                    transform: translateX(0);
+                }
 
 
 
@@ -39,7 +44,10 @@ h2{
     font-family: "Rethink Sans", sans-serif;
     font-size: 2.5em;
 }
-
+section{
+    margin: 0;
+    padding: 0;
+}
 
 .logo-container{
     width: 50px;
@@ -73,16 +81,17 @@ h2{
 }
 
     .main-title-section{
-        display: flex;
+        width: auto;
+        height: 100%;
+
+        padding: 9vh;
     }
     .title{
         width: 100%;
         height: 100%;
 
-        justify-self: left;
-        padding-top: 20vh;
-        padding-bottom: 20vh; /*HAHSHAHSHAH padding ezzz so easyy coding skskskksks*/
-        margin-right: 20vh;
+        justify-self: left; 
+        margin-top: -5vh;/*HAHSHAHSHAH padding ezzz so easyy coding skskskksks*/
 
         font-family: "Rethink Sans", sans-serif;
         font-weight: normal;
@@ -155,10 +164,11 @@ h2{
                     width: 40%;
                     object-fit: cover;
                     padding: 2vh;
+                    transition-delay: 100ms;
                 }
-                .AOTD-description h4 {font-size: calc(8px + 2vw); margin-top: 1vh;}
-                .AOTD-description h5 {font-size: calc(8px + 1.5vw);}
-
+                .AOTD-description h4 {font-size: calc(8px + 2vw); margin-top: 1vh; transition-delay: 200ms;}
+                .AOTD-description h5 {font-size: calc(8px + 1.5vw); transition-delay: 300ms;}
+                .AOTD-description h5 {transition-delay: 500ms;}
         .featured{
             height: auto;
             width: 100%;
@@ -201,14 +211,22 @@ h2{
                         height: auto;
                         width: 100%;
                         padding: 2vh;
+                        transition-delay: 100ms;
                     }
                 .featured-description{
                     flex: 1;
                     padding: 5%;
                     justify-content: left;
                 }
-            .featured-description p {font-size: calc(5px + 1vw);}
-            .featured-description h3 {font-size: calc(8px + 3vw); margin-top: 1%;}
+            .featured-description p {
+                font-size: calc(5px + 1vw);
+                transition-delay: 500ms;
+            }
+            .featured-description h3 {
+                font-size: calc(8px + 3vw); 
+                margin-top: 1%;
+                transition-delay: 300ms;
+            }
 
     .announcements{
         height: 400px;
@@ -246,3 +264,12 @@ h2{
 
         margin: 1vh;
     }
+        .news-box:nth-child(1){
+            transition-delay: 100ms;
+        }
+        .news-box:nth-child(2){
+            transition-delay: 200ms;
+        }
+        .news-box:nth-child(3){
+            transition-delay: 300ms;
+        }
