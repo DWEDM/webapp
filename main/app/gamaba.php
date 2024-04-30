@@ -10,6 +10,21 @@
 
 <?php include('include/header.php')?>
 
+    <div class="redirect-main-content">
+        <div>
+            <div class="redirect-msg">
+                <h1>You are about to leave this site...</h1>
+                <p>You'll be redirected to <strong>"ncca.gov.ph"</strong>, Proceed?</p>
+            </div>
+            
+            <a href="https://ncca.gov.ph/about-culture-and-arts/culture-profile/gamaba/" target="_blank">
+                <button class="redirect-button">
+                    Redirect
+                </button>
+            </a>
+        </div>
+        <div class="gamaba-logo"></div>
+    </div>
 
 
 <?php include('include/footer.php')?>

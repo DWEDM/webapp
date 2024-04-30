@@ -14,6 +14,7 @@
         height: auto;
         width: 10vh;
     }
+    .paa-logo{display: none;}
 }
                 .hidden {
                     opacity: 0;
@@ -284,11 +285,71 @@ section{
 
 /*============================     P.A.A.     ===================================*/
 
-.paa-content{
+.redirect-main-content{
     margin: 0;
     padding: 10vh;
 
-    width: 100vh;
-    height: 70vh;
-    background-color: rgb(31, 80, 64);
+    width: 100%;
+    height: 58vh;
+    display: flex;
+}
+        .redirect-main-content div h1{
+            font-size: calc(9px + 4.5vw);
+        }
+    .redirect-msg{
+        margin-bottom: 10vh;
+    }
+        .redirect-msg p{
+            font-size: calc(6px + 1vw);
+        }
+    .redirect-button{
+        border: none;
+        background-color: #f2c649;
+        color: rgb(31, 31, 31);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+        .redirect-button:hover{
+            transform: scale(1.05);
+            transition: 0.8s;
+            background-image: url();
+        }
+.paa-logo{
+    top: 0;
+    left: 90vh;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+
+    width: 100%;
+    height: auto;
+    background-image: url(../resources/paa\ logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    opacity: 0.2;
+}
+.gamaba-logo{
+    top: 0;
+    left: 100vh;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    overflow: hidden;
+    position: absolute;
+
+    width: 100%;
+    height: auto;
+    background-image: url(../resources/gamaba\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    opacity: 0.2;
 }
