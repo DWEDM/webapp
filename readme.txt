@@ -12,7 +12,7 @@ but yeaaahh
 
 yun yung idea ko
 
-iaad ko dito si michael angelo banez and ashley sarmiento as collaborators, idk if collaborators na sila sa repo ko but idk
+iaad ko dito si gelo and shuri as collaborators, idk if collaborators na sila sa repo ko but idk
 
 
 so
