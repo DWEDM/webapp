@@ -75,7 +75,7 @@ section{
 
     width: 100%;
     height: auto;
-    background-image: url(../resources/wall-art.gif);
+    background-image: url(../../resources/wall-art.gif);
     background-position: center;
     background-size: cover;
     opacity: 0.5;
@@ -141,7 +141,7 @@ section{
             justify-items: center;
             padding: 4%;
 
-            background-color: #f2c649;
+            background-color: #f2c649; /* gold */
         }
             .AOTD-content{
                 height: auto;
@@ -187,10 +187,24 @@ section{
         
             width: 100%;
             height: auto;
-            background-image: url(../resources/background-text.gif);
+            background: url(../../resources/background-text.gif);
             background-position: center;
             opacity: 0.3;
         }
+            .divider-gradient-1{
+                width: 100%;
+                height: 20vh;
+                margin-bottom: -20vh;
+
+                background-image: linear-gradient(#f2c549, #f2c54900);
+            }
+            .divider-gradient-2{
+                width: 100%;
+                height: 30vh;
+                margin-top: -30vh;
+
+                background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255));
+            }
         .featured-section{
             padding: 5%;
 
@@ -242,7 +256,7 @@ section{
 .local-cover{
     height: 100vh;
     width: 100%;
-    background-image: url(../resources/banner.png);
+    background-image: url(../../resources/banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -330,12 +344,12 @@ section{
 
     width: 100%;
     height: auto;
-    background-image: url(../resources/paa\ logo.jpg);
+    background-image: url(../../resources/paa\ logo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 
     opacity: 0.2;
-    filter: blur(3px);
+    filter: blur(5px);
 }
 .gamaba-logo{
     top: 0;
@@ -348,10 +362,10 @@ section{
 
     width: 100%;
     height: auto;
-    background-image: url(../resources/gamaba\ logo.png);
+    background-image: url(../../resources/gamaba\ logo.png);
     background-size: contain;
     background-repeat: no-repeat;
 
     opacity: 0.2;
-    filter: blur(3px);
+    filter: blur(5px);
 }

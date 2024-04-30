@@ -61,6 +61,7 @@
             </div>
           </div>
         </div>
+        <div class="divider-gradient-1"></div>
 
 
 
@@ -96,9 +97,9 @@
                     </section>
                   </div>
                 </div>
-
             </div>
         </div>
+        <div class="divider-gradient-2"></div>
 
 
 
