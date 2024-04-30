@@ -335,6 +335,7 @@ section{
     background-repeat: no-repeat;
 
     opacity: 0.2;
+    filter: blur(3px);
 }
 .gamaba-logo{
     top: 0;
@@ -352,4 +353,5 @@ section{
     background-repeat: no-repeat;
 
     opacity: 0.2;
+    filter: blur(3px);
 }
