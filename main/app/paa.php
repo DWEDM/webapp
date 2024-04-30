@@ -13,6 +13,21 @@
 <?php include('include/header.php')?>
 
 
+<div class="paa-content">
+    <div><h1>You are about to leave this site...</h1></div>
+    <a href="https://philippineartawards.org/art-news/" target="_blank">
+        <button class="redirect-paa">
+            Redirect
+        </button>
+    </a>
+</div>
+
+
+
+
+
+
+
 
 <?php include('include/footer.php')?>
 

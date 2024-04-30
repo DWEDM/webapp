@@ -272,3 +272,23 @@ section{
         .news-box:nth-child(3){
             transition-delay: 300ms;
         }
+
+
+
+
+
+
+
+
+
+
+/*============================     P.A.A.     ===================================*/
+
+.paa-content{
+    margin: 0;
+    padding: 10vh;
+
+    width: 100vh;
+    height: 70vh;
+    background-color: rgb(31, 80, 64);
+}
