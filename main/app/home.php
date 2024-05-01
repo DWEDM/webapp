@@ -19,7 +19,7 @@
   <div class="title-section">
     <div class="main-title-section">
       <div class="wall-art"></div>
-      <img class="logo-animated"  src="../resources/logo-animated.gif">
+      <img class="logo-animated"  src="../resources/homepage/logo-animated.gif">
         <div class="title">
           <section class="hidden">
             Welcome!

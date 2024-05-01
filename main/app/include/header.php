@@ -12,7 +12,7 @@
         <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white">
           <div class="logo-container">
-            <img src="../resources/icon.png" alt="site logo" class="logo">
+            <img src="../resources/homepage/icon.png" alt="site logo" class="logo">
           </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -72,9 +72,9 @@
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                      <a class="dropdown-item" href="museum/digital.php">Digital</a>
+                      <a class="dropdown-item" href="digital.php">Digital</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="museum/traditional.php">Traditional</a>
+                      <a class="dropdown-item" href="traditional.php">Traditional</a>
                     </div>
                   </div>
 
