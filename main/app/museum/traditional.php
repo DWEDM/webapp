@@ -3,46 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Traditional</title>
 </head>
 <body>
     
-
 <?php include('include/header.php')?>
 
 
-
-<div class="about-section">
-
-</div>
-
-
-
-<div class="gelo">
-
-</div>
-
-
-
-<div class="denver">
-
-</div>
-
-
-
-<div class="ash">
-    
-</div>
-
-
-
-
-
-
-
 <?php include('include/footer.php')?>
-
-
 
 </body>
 </html>

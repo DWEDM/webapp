@@ -50,6 +50,12 @@ section{
     padding: 0;
 }
 
+
+
+/*============================    HOME    ===================================*/
+
+
+
 .logo-container{
     width: 50px;
     height: auto;
@@ -75,7 +81,7 @@ section{
 
     width: 100%;
     height: auto;
-    background-image: url(../../resources/wall-art.gif);
+    background-image: url(../../resources/homepage/wall-art.gif);
     background-position: center;
     background-size: cover;
     opacity: 0.5;
@@ -187,7 +193,7 @@ section{
         
             width: 100%;
             height: auto;
-            background: url(../../resources/background-text.gif);
+            background: url(../../resources/homepage/background-text.gif);
             background-position: center;
             opacity: 0.3;
         }
@@ -256,7 +262,7 @@ section{
 .local-cover{
     height: 100vh;
     width: 100%;
-    background-image: url(../../resources/banner.png);
+    background-image: url(../../resources/homepage/banner.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -297,7 +303,7 @@ section{
 
 
 
-/*============================     P.A.A.     ===================================*/
+/*=======================     P.A.A. | GAMABA     ========================*/
 
 .redirect-main-content{
     margin: 0;
@@ -344,7 +350,7 @@ section{
 
     width: 100%;
     height: auto;
-    background-image: url(../../resources/paa\ logo.jpg);
+    background-image: url(../../resources/redirect/paa\ logo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -362,10 +368,52 @@ section{
 
     width: 100%;
     height: auto;
-    background-image: url(../../resources/gamaba\ logo.png);
+    background-image: url(../../resources/redirect/gamaba\ logo.png);
     background-size: contain;
     background-repeat: no-repeat;
 
-    opacity: 0.2;
-    filter: blur(5px);
+    opacity: 0.3;
+    filter: blur(3px);
 }
+
+
+
+
+
+
+
+
+
+/*============================     MUSEUM     ===================================*/
+
+/*
+https://www.podkas.org/resources/five-digital-museums-to-visit
+*/
+
+
+
+
+
+.museum-content{
+    width: 100%;
+    height: auto;
+}
+    .museum-content .title-section{
+        width: 100%;
+        height: 90vh;
+
+        background: white;
+    }
+
+
+
+
+
+
+
+
+/*============================     ABOUT     ===================================*/
+
+
+
+
