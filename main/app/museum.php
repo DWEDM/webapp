@@ -11,9 +11,11 @@
 <?php include('include/header.php')?>
 
 <div class="museum-content">
-    <div class="title-section">
 
+    <div class="title-section">
+        <h1>Museum</h1>
     </div>
+    <div class="museum-image"></div>
 </div>
 
 <?php include('include/footer.php')?>
